@@ -1,0 +1,24 @@
+{
+  // 개발 도구: Claude 훅, CI 스크립트, 설정 파일, 도구 테스트 (Node 24가 TS를 바로 실행)
+  "compilerOptions": {
+    "target": "ES2024",
+    "lib": ["ES2024"],
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "types": ["node"],
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "verbatimModuleSyntax": true,
+    "erasableSyntaxOnly": true,
+    "allowImportingTsExtensions": true,
+    "skipLibCheck": true,
+    "noEmit": true
+  },
+  "include": [
+    ".claude/hooks/**/*.ts",
+    "scripts/**/*.ts",
+    "test/tooling/**/*.ts",
+    "vitest.workers.config.ts",
+    "vitest.tooling.config.ts"
+  ]
+}
