@@ -1,0 +1,5 @@
+# 로컬 개발용 시크릿의 키 이름만 적는다. 실제 값은 .dev.vars에 사람이 직접 넣는다 (커밋하지 않는다).
+# 0002-capture부터 쓴다.
+TELEGRAM_BOT_TOKEN=
+TELEGRAM_WEBHOOK_SECRET=
+ALLOWED_CHAT_ID=
