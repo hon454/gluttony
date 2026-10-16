@@ -1,11 +1,12 @@
 ---
-status: draft
+status: approved 2026-10-17
 tier: M
+decisions: D1=A, D2=A, D3=A, D4=A
 ---
 
 # 0001 bootstrap — spec
 
-## 결정 필요
+## 결정 필요 (승인: 모두 A)
 
 D1. 배포 워크플로를 넣는 시점
   - A. 0002-capture에서 넣는다 ← 추천
